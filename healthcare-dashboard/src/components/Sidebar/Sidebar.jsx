@@ -3,9 +3,9 @@ import './Sidebar.css';
 import { navigationLinks } from '../../data/navigationLinks';
 
 const Sidebar = () => {
-  const generalLinks = navigationLinks.slice(0, 5); // Dashboard to Statistics
-  const supportLinks = navigationLinks.slice(5, 7); // Chat, Support
-  const settingLink = navigationLinks[7];           // Only the Setting item
+  const generalLinks = navigationLinks.slice(0, 5); 
+  const supportLinks = navigationLinks.slice(5, 7); 
+  const settingLink = navigationLinks[7];          
 
   return (
     <aside className="sidebar">

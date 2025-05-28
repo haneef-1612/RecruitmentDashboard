@@ -15,7 +15,7 @@ const DashboardMain = () => {
       <button className="header-filter-btn">This Week</button>
     </div>
   
-    {/* Main dashboard layout */}
+  
     <div className="dashboard-body-wrapper">
       {/* LEFT SIDE */}
       <div className="dashboard-main-left">

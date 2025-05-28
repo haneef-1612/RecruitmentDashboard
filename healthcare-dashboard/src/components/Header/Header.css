@@ -2,36 +2,36 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1.25rem 2.5rem; /* 20px 40px */
+    padding: 1.25rem 2.5rem; 
     background: #ffffff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-    flex-wrap: wrap; /* ✅ Wrap content on smaller screens */
+    flex-wrap: wrap; 
   }
   
   .header-middle {
     display: flex;
     align-items: center;
-    gap: 1.25rem; /* 20px */
-    margin-left: -1.5rem; /* ✅ Replaces translateX(-30px) for better layout */
+    gap: 1.25rem; 
+    margin-left: -1.5rem;
     flex-wrap: wrap;
   }
   
   .header-search {
     max-width: 100%;
-    flex: 1 1 auto; /* ✅ Makes it grow as needed */
+    flex: 1 1 auto; 
   }
   
   .search-input {
     width: 180%;
-    max-width: 30rem; /* 480px-ish */
-    padding: 0.625rem 1rem; /* 10px 16px */
+    max-width: 30rem; 
+    padding: 0.625rem 1rem; 
     border: 1px solid #ccc;
     border-radius: 0.5rem;
     font-size: 1rem;
   }
   
   .notification-icon {
-    font-size: 1.25rem; /* 20px */
+    font-size: 1.25rem; 
     cursor: pointer;
     margin-left: 12.5rem;
     
@@ -40,7 +40,7 @@
   .header-icons {
     display: flex;
     align-items: center;
-    gap: 1.25rem; /* 20px */
+    gap: 1.25rem;
     flex-wrap: wrap;
   }
   
@@ -51,7 +51,7 @@
   }
   
   .avatar {
-    width: 3rem;  /* 48px */
+    width: 3rem; 
     height: 3rem;
     border-radius: 50%;
     object-fit: cover;
@@ -62,8 +62,8 @@
     color: white;
     border: none;
     border-radius: 0.75rem;
-    font-size: 1.5rem; /* 24px */
-    width: 2.5rem;      /* 40px */
+    font-size: 1.5rem; 
+    width: 2.5rem;      
     height: 2.5rem;
     cursor: pointer;
   }

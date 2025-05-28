@@ -1,6 +1,4 @@
-/* ================================
-   Base Styles (Desktop ≥1024px)
-   ================================ */
+
 
    .main-panel {
     display: flex;
@@ -103,9 +101,7 @@
     margin-right: 20px;
   }
   
-  /* ======================
-     Tablet: 640px–1023px
-     ====================== */
+
   
   @media (min-width: 640px) and (max-width: 1023px) {
     .main-panel {
@@ -163,10 +159,7 @@
       margin-right: 0;
     }
   }
-  
-  /* ==================
-     Mobile: ≤639px
-     ================== */
+
   
   @media (max-width: 639px) {
     .main-panel {
