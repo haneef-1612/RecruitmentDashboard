@@ -1,0 +1,90 @@
+
+.dashboard-content {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    
+    
+  }
+  .dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+    margin-left: 25px;
+  }
+  
+  /* Styling for the "This Week" button */
+  .header-filter-btn {
+    background-color: #e0e7ff;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 14px;
+   
+    margin-right: 620px;
+  }
+  
+  
+  /* Body and Organ Side-by-Side Container */
+  .body-organ-section {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+  
+  /* Body Image Styling */
+  .body-visual {
+    flex: none;
+    width: 240px; /* adjust as needed */
+    background: white;
+    padding: 16px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+  }
+  
+  .body-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .organ-cards-column {
+    flex: none;
+    width: 200px; /* adjust as needed */
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  /* Optional: Adjust ActivityGraph to match full width */
+  .activity-graph-container {
+    /* background: white; */
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    margin-top: -50px; /* or adjust as needed */
+    width: 90%;         /* reduce width */
+    max-width: 600px;   /* optional limit */
+    margin-left: 0px;
+    /* margin-right: auto;  */
+    
+  }
+  .filter-btn {
+    background-color: #e0e7ff;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 14px;
+    align-self: flex-start; /* aligns button to left */
+    margin-top: 4px;
+    margin-left: 160px;
+  }
+  

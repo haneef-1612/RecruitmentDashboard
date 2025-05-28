@@ -1,0 +1,224 @@
+/* ================================
+   Base Styles (Desktop ≥1024px)
+   ================================ */
+
+   .main-panel {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  
+  .dashboard-body-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 0 25px;
+  }
+  
+  
+  .dashboard-content {
+    flex: 1;
+  }
+  
+  .dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+    margin-left: 25px;
+  }
+  
+  .header-filter-btn {
+    background-color: #e0e7ff;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 14px;
+    margin-right: 39rem;
+  }
+  
+  .body-organ-section {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+  
+  .body-visual {
+    flex: none;
+    width: 240px;
+    background: white;
+    padding: 16px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+  }
+  
+  .body-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .organ-cards-column {
+    flex: none;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .activity-graph-container {
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    margin-top: -50px;
+    width: 90%;
+    max-width: 600px;
+    margin-left: 0px;
+  }
+  
+  .filter-btn {
+    background-color: #e0e7ff;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 14px;
+    align-self: flex-start;
+    margin-top: 4px;
+    margin-left: 145px;
+  }
+  
+  .right-panel {
+    flex: 0.9;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    margin-right: 20px;
+  }
+  
+  /* ======================
+     Tablet: 640px–1023px
+     ====================== */
+  
+  @media (min-width: 640px) and (max-width: 1023px) {
+    .main-panel {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .dashboard-body-wrapper {
+      flex-direction: column;
+      gap: 20px;
+      padding: 0 20px;
+    }
+  
+    .dashboard-header {
+      flex-direction: column;
+      align-items: flex-start;
+      margin-left: 0;
+    }
+  
+    .header-filter-btn {
+      margin-right: 0;
+      margin-top: 10px;
+    }
+  
+    .body-organ-section {
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 16px;
+    }
+  
+    .body-visual {
+      width: 100%;
+      margin-left: 0;
+    }
+  
+    .organ-cards-column {
+      width: 100%;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+  
+    .activity-graph-container {
+      width: 100%;
+      margin-top: 20px;
+    }
+  
+    .filter-btn {
+      margin-left: 0;
+    }
+  
+    .right-panel {
+      width: 100%;
+      margin-right: 0;
+    }
+  }
+  
+  /* ==================
+     Mobile: ≤639px
+     ================== */
+  
+  @media (max-width: 639px) {
+    .main-panel {
+      flex-direction: column;
+      gap: 16px;
+    }
+  
+    .dashboard-body-wrapper {
+      flex-direction: column;
+      gap: 16px;
+      padding: 0 16px;
+    }
+  
+    .dashboard-header {
+      flex-direction: column;
+      align-items: flex-start;
+      margin-left: 0;
+    }
+  
+    .header-filter-btn {
+      margin-right: 0;
+      margin-top: 10px;
+    }
+  
+    .body-organ-section {
+      flex-direction: column;
+      gap: 12px;
+    }
+  
+    .body-visual {
+      width: 100%;
+      margin-left: 0;
+    }
+  
+    .organ-cards-column {
+      width: 100%;
+      flex-direction: column;
+    }
+  
+    .activity-graph-container {
+      width: 100%;
+      margin-top: 20px;
+      padding: 16px;
+    }
+  
+    .filter-btn {
+      margin-left: 0;
+    }
+  
+    .right-panel {
+      width: 100%;
+      margin-right: 0;
+    }
+  }
+  

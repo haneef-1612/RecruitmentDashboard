@@ -1,0 +1,70 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.25rem 2.5rem; /* 20px 40px */
+    background: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    flex-wrap: wrap; /* ✅ Wrap content on smaller screens */
+  }
+  
+  .header-middle {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem; /* 20px */
+    margin-left: -1.5rem; /* ✅ Replaces translateX(-30px) for better layout */
+    flex-wrap: wrap;
+  }
+  
+  .header-search {
+    max-width: 100%;
+    flex: 1 1 auto; /* ✅ Makes it grow as needed */
+  }
+  
+  .search-input {
+    width: 180%;
+    max-width: 30rem; /* 480px-ish */
+    padding: 0.625rem 1rem; /* 10px 16px */
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .notification-icon {
+    font-size: 1.25rem; /* 20px */
+    cursor: pointer;
+    margin-left: 12.5rem;
+    
+  }
+  
+  .header-icons {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem; /* 20px */
+    flex-wrap: wrap;
+  }
+  
+  .user-profile {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+  
+  .avatar {
+    width: 3rem;  /* 48px */
+    height: 3rem;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .add-button {
+    background-color: #6366f1;
+    color: white;
+    border: none;
+    border-radius: 0.75rem;
+    font-size: 1.5rem; /* 24px */
+    width: 2.5rem;      /* 40px */
+    height: 2.5rem;
+    cursor: pointer;
+  }
+  

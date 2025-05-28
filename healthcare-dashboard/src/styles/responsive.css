@@ -1,0 +1,97 @@
+/* App.css or responsive.css */
+@media (max-width: 1024px) {
+    .app-container {
+      flex-direction: column;
+    }
+  
+    .main-section {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .dashboard-main {
+      padding: 0 1rem;
+    }
+  
+    .main-panel {
+      flex-direction: column;
+      gap: 1rem; /* 16px */
+    }
+  
+    .dashboard-content,
+    .right-panel {
+      width: 100%;
+      margin-right: 0;
+    }
+  
+    .body-organ-section {
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+    }
+  
+    .organ-cards-column {
+      width: 100%;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 0.75rem; /* 12px */
+      max-width: 500px; /* ✅ Narrower card layout */
+    }
+  
+    .organ-card {
+      min-height: 70px; /* ✅ Smaller card height */
+      padding: 12px 12px;
+    }
+  
+    .activity-graph-container {
+      width: 80%; /* ✅ Reduce graph width */
+      padding: 1rem;
+      margin-top: 1rem;
+    }
+  
+    .header-filter-btn {
+      margin-right: 0;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .dashboard-header {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.625rem; /* 10px */
+    }
+  
+    .calendar-grid {
+      flex-direction: column;
+    }
+  
+    .appointment-cards,
+    .schedule-row {
+      flex-direction: column;
+    }
+  
+    .filter-btn {
+      margin-left: 0;
+      align-self: center;
+    }
+  }
+  
+  /* General refinements for better sizing */
+  .organ-card {
+    min-height: 80px;
+    padding: 16px 14px;
+    gap: 10px;
+  }
+  
+  .right-panel-wrapper {
+    width: 320px; /* ✅ Shrinks right panel */
+    max-width: 100%;
+  }
+  
+  .search-input {
+    width: 480px; /* ✅ Slightly wider search bar */
+    max-width: 100%;
+  }
+  
